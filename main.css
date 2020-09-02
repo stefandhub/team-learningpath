@@ -1,14 +1,20 @@
 
 body,html{
     background-color: #F5FAFE;
+<<<<<<< HEAD
     font-family: Muli;
     margin: 0;
     padding: 0;
+=======
+    margin: 0px;
+    font-family: Muli;
+>>>>>>> 476e0cf34ddd35cb50f2abd5e657079bef153436
 }
 
 .headcontainer{
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     align-items: center;
 }
 
@@ -35,10 +41,28 @@ body,html{
 
 .divh2 {
     margin-right: 10%;
+=======
+    align-content: center;
 }
+
+.navtop{
+    background-color: #F5FAFE;
+    padding: 0px;
+    margin: 0px;
+    width: 1440px;
+    height: 60px;
+}
+.navbar{
+    background-color: white;
+    height: 120px;
+    width: 1440px;
+>>>>>>> 476e0cf34ddd35cb50f2abd5e657079bef153436
+}
+
 
 .question{
     font-size: 10px;
+<<<<<<< HEAD
    
 }
 
@@ -135,3 +159,122 @@ body,html{
 
 }
 
+=======
+    position: absolute;
+    left: 165px;
+    top: 24px;  
+}
+
+.gift{
+    position: absolute;
+    left: 957px;
+    top: 25px;
+    width: 18px;
+    font-size: 10px;
+    align-items: center;
+}
+.BTP{
+   position: absolute; 
+   width: 64px;
+   height: 13px;
+   left: 995px;
+   top: 27px;
+   font-size: 10px;
+}
+.star{
+    position: absolute;
+    left: 1157px;
+    top: 25px;
+}
+.loyalty{
+    position: absolute;
+    width: 77px;
+    height: 13px;
+    left: 1195px;
+    top: 27px;
+    font-size: 10px;
+
+}
+.best{
+    position: absolute;
+    width: 177px;
+    height: 24px;
+    left: 165px;
+    top: 111px;
+}
+#search{
+    position: absolute;
+    width: 285px;
+    height: 38px;
+    left: 450px;
+    top: 100px;
+    border-width: 0px;
+    background-color: #F5FAFE;
+}
+
+#button{
+    position: absolute;
+    background-color: #EC1F46;
+    border-width: 0px;
+    width: 65px;
+    height: 40px;
+    left: 735px;
+    top: 100px;
+    border-radius: 0px 6px 6px 0px;   
+}
+.cart{
+    position: absolute;
+    left: 1038px;
+    top: 112px;
+}
+.circle{
+    display: flex;
+    position: absolute;
+    background-color: #EC1F46;
+    background-size: cover;
+    color: white;
+    width: 20px;
+    height: 20px;
+    left: 1052px;
+    top: 101px;
+    border-radius: 50%;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+/*  come mai funziona aling-ITEMS e non align-CONTENT, mentre funziona justify-CONTENT */
+.avatar{
+    position: absolute;
+    left: 1125px;
+    top: 99px;
+}
+.name{
+    position: absolute;
+    left: 1183px;
+    top: 112px;
+    font-size: 14px;
+}
+.bottom_Arrow{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1251px;
+    top: 110px;
+}
+.navbarBottom {
+    background-color: #0A223D ;
+    width: 1440px;
+    height: 80px;
+    color: white;
+    font-size: 14px;
+
+}
+.navbarBottom li {
+    position: relative;
+    display: inline-flex;
+    padding-left: 83px;
+    left: 40px;
+    top: 16px;
+}
+>>>>>>> 476e0cf34ddd35cb50f2abd5e657079bef153436
