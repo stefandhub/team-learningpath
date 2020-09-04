@@ -26,7 +26,6 @@ body,html{
     height: 120px;
     display: flex;
     align-items: center;
-    
 }
 
 .divh1 {
@@ -38,12 +37,10 @@ body,html{
 }
 
 .question{
-    font-size: 10px;
-   
+    font-size: 10px; 
 }
 
 .gift{
-    
     font-size: 10px;
 }
 .BTP{
@@ -68,13 +65,12 @@ body,html{
 
 }
 .searchbutton {
+    position:relative;
     margin-left: 12%;
 }
-#search{
-    
+#search{  
     width: 285px;
     height: 38px;
-    
     border-width: 0px;
     background-color: #F5FAFE;
 }
@@ -87,17 +83,16 @@ body,html{
     border-radius: 0px 6px 6px 0px;   
 }
 .cart{
-    margin-left: 25%;
+    position: relative;
+    margin-left: 23%;
 }
 .circle{
     display: flex;
-   
     background-color: #EC1F46;
     background-size: cover;
     color: white;
     width: 20px;
     height: 20px;
-
     border-radius: 50%;
     font-size: 10px;
     align-items: center;
@@ -105,17 +100,19 @@ body,html{
 }
 
 .avatar{
+    position: relative;
     margin-left: 6%;
 }
 .name{
-    margin-left: 18px;
+    position:relative;
+    margin-left: 16px;
     font-size: 14px;
 }
 .bottom_Arrow{
-    margin-left: 21px;
+    position: relative;
+    margin-left: 10px;
     width: 24px;
     height: 24px;
-
 }
 .navbarBottom {
     background-color: #0A223D ;
@@ -124,15 +121,71 @@ body,html{
     color: white;
     font-size: 14px;
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 .menu{
     width: 80%;
     margin-left: 10%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.breadCrumb{
+    margin-left: 10%;
+    font-size: 10px;
+    margin-top: 18px;
+    color: #333333
+}
+.hotelName{
+    margin-left: 10%;
+    margin-top: 24px;
+    display:flex;
+    flex-direction: column;
+}
+.stars{
+    margin-top: 18px;
+}
+.GrandHiltonHotel{
+    margin-top: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+}
+.flashOffer{
+    font-size: 10px;
+    background-color: #EC1F46;
+    color: white;
+    width: 58px;
+    height: 14px;
+    padding: 3px 6px;
+    border-radius: 3px;
     align-self: center;
+    margin-left: 14px;
 
 }
+.hotelText{
+    font-size: 12px;
+    color:#333333;
+}
 
+.userRatings {
+    width: 65px;
+    height: 45px;
+    background-color: #EC1F46;
+    color: white;
+    font-size: 8px;
+    text-align: center;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 65%;
+}
+
+.ur1 {
+    font-size: 14px;
+}
+
+.ur2 {
+    font-size: 10px;
+}
