@@ -2,8 +2,9 @@
 body,html{
     background-color: #F5FAFE;
     font-family: Muli;
-    margin: 0;
     padding: 0;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .headcontainer{
@@ -84,7 +85,7 @@ body,html{
 }
 .cart{
     position: relative;
-    margin-left: 23%;
+    margin-left: 13%;
 }
 .circle{
     display: flex;
@@ -179,7 +180,7 @@ body,html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 65%;
+    margin-left: 57%;
 }
 
 .ur1 {
@@ -202,7 +203,7 @@ body,html{
 }
 
 .secondSlider{
-    margin-left: 480px;
+    margin-left: 70px;
     margin-top: 20px;
 }
 .s2{
@@ -280,13 +281,11 @@ body,html{
     width: 90px;
 }
 
-.room {
-    margin-top: 8px;
-}
 .package{
-    margin-left: 8%;
+    margin-left: 7%;
     margin-top: 68px;
     margin-right: 8%;
+    width: 1192px;
 }
 
 .package ul{
@@ -307,8 +306,10 @@ body,html{
 .packageSummery{
     margin-left: 10%;
     display: flex;
-    justify-content: space-between;
     margin-right:8%;
+}
+.mleft {
+    margin-left: 32px;
 }
 .titlePack{
     margin-left: 10%;
@@ -322,8 +323,9 @@ body,html{
     background-color: white;
     width: 538px;
     height: 200px;
-    justify-content: space-around;
+    
 }
+
 .title1{
     background-color: #0A223D;
     color:white;
@@ -366,4 +368,261 @@ body,html{
     position: relative;
     margin-left: 21px;
     top: -5px;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80px;
+    width: 269px;
+    margin-left: 20px;
+    font-size: 12px;
+    margin-top: -8px;
+}
+#benefit{
+    position:relative;
+    margin-top: -65px;
+    margin-left: 42px;
+    width: 168px;
+    font-size: 12px;
+}
+.PsummeryDetails{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-right:8%;
+    margin-top: 33px;
+    width:1110px;
+    height: 550px;
+    background-color:white;
+}
+.title2{
+    background-color: #0A223D;
+    color:white;
+    height:50px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left:24px;
+    display: flex;
+    align-items: center;
+}
+.details_Container{
+    display:flex;
+    width: 1110px;
+    height: 350px;
+}
+.list1_2{
+    display: flex;
+    height: 239px;
+    margin-left: 30px;
+    margin-top: 38px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.list2_2{
+    display: flex;
+    height: 239px;
+    margin-left: 130px;
+    margin-top: 38px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.list3_2{
+    display: flex;
+    height: 239px;
+    margin-left: 130px;
+    margin-top: 38px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.mini_title{
+    color:red;
+    font-size: 13px;
+    font-weight: bold;
+}
+.line{
+    margin-top: -20px;
+    border: 1px dashed #E0E0E0;
+    width: 90%;
+    align-self: center;
+}
+.details_bottom{
+    display:flex;
+    width: 1110px;
+    height: 150px;
+}
+.list1_3{
+    display: flex;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 38px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.list2_3{
+    display: flex;
+    height: 90px;
+    margin-left: 286px;
+    margin-top: 38px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.list3_3{
+    display: flex;
+    height: 90px;
+    margin-left: 163px;
+    margin-top: 38px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+}
+.titleOther{
+    width: 327px;
+    height: 45px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 556px;
+    margin-top: 98px;
+}
+.otherPackages{
+    margin-top: 65px;
+    margin-left: 165px;
+}
+.cardGroup1{
+    display: flex;    
+    width: 1110px;
+    height: 500px;
+    justify-content: space-between;
+}
+#box1{
+    display:flex;
+    width:730px;
+    border-radius: 8px;
+}
+.blueHavenHotel{
+    background-color: #0A223D;
+    color:white;
+}
+.imageBlue{
+    border-radius: 8px 0px 0px 8px;
+}
+.blueInfo{
+    margin-left: 44px;
+    margin-top: 46px;
+}
+.blueInfoText{
+    margin-top: 27px;
+    width: 299px;
+    font-size: 14px;
+    font-weight: normal;
+    height: 165px;
+}
+.blueDetails {
+    display: flex;
+    flex-direction: column;
+    height: 67px;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 34px;
+}
+.left {
+    margin-left: 14px;
+}
+.blueOldPrice {
+    font-size: 14px;
+    text-decoration-line: line-through;
+    margin-top: 37px;
+}
+.blueNewPrice {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.bookNow {
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #EC1F46;
+    border: solid rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    position: relative;
+    margin-left: 180px;
+    bottom: 30px;
+
+}
+.cardGroup2{
+    display: flex;
+    width: 1110px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box2 {
+    width: 350px;
+    height: 500px;
+    background-color: #0A223D;
+    border-radius: 8px;
+}
+.cardTitle{
+    font-size:18px;
+    font-weight: 700;
+}
+.cardImage {
+    border-radius: 8px 8px 0px 0px;
+}
+.cardDetails{
+    display: flex;
+    flex-direction: column;
+    height: 67px;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 23px;
+}
+.cardInfo{
+    color:white;
+    margin-top: 30px;
+    width: 299px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 32px;
+}
+.cardOldPrice{
+    font-size: 14px;
+    text-decoration-line: line-through;
+    margin-top: 24px;
+}
+.cardNewPrice{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.flashLabel{
+    position: absolute;
+    background-color: #EC1F46;
+    font-size: 12px;
+    font-weight: 400;
+    width: 84px;
+    height: 23px;
+    margin-top: 26px;
+    border-radius: 0px 4px 4px 0px;
+    padding-left: 11px;
+    padding-top: 7px;
+}
+.flashLabel2{
+    color:white;
+    position: absolute;
+    background-color: #EC1F46;
+    font-size: 8px;
+    font-weight: 400;
+    width: 51px;
+    height: 14px;
+    margin-top: 26px;
+    border-radius: 0px 4px 4px 0px;
+    padding-left: 9px;
+    padding-top: 4px;
 }
