@@ -626,3 +626,171 @@ body,html{
     padding-left: 9px;
     padding-top: 4px;
 }
+.peopleThinks{
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 110px;
+    text-align: center;
+}
+.avatar2{
+    margin-top: 70px;
+    text-align: center;
+}
+.meganFox{
+    color: #EC1F46;
+    margin-top: 9px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.date{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.avatarInfo{
+    width: 731px;
+    height: 280px;
+    background-color: white;
+    margin-left: 354px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: -118px;
+    border-radius: 8px;
+}
+.avatarText{
+    width: 537px;
+    font-size: 12px;
+    font-weight: 400px;
+    margin-left: 99px;
+    background-color:white;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 160%;
+    text-align: justify;
+}
+.leftArrow{
+    margin-left: 163px;
+    top: 203px;
+}
+.rightArrow{
+    margin-left: 1227px;
+    margin-top: -22px;
+}
+.newsletter{
+    background-image: url(/Images/NEWSLETTER-BACKGROUND.png);
+    background-size: cover;
+    width:1440px;
+    margin-top: 70px;
+}
+.newsletterbckg{
+    height: 261px;
+    background-color:rgba(10, 34, 61, 0.8);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 354px;
+    padding-right: 355px;
+    align-items: center;
+}
+.subscribe{
+
+}
+.s_1 {
+    font-size: 24px;
+    font-weight: 300;
+    color:white;
+}
+.s_2{
+    height: 45px;
+    font-size: 36px;
+    margin-top: 10px;
+    font-weight: 600;
+    color:white;
+}
+.input{
+    position: relative;
+    left: 70px;
+    
+}
+
+#yourEmail {
+    position: relative;
+    color: red;
+    width: 350px;
+    height: 55.21px;
+    border-radius: 4px;
+    top: 6px;
+    border: solid rgba(255, 255, 255, 0);
+    padding-left: 33px;
+    
+}
+
+.buttonSend {
+    position: relative;
+    width: 65px;
+    height: 63.5px;
+    background-color: #EC1F46;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    border: solid rgba(255, 255, 255, 0);
+    top: 6px;
+    right: 70px;
+}
+.otherActivities{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 165px;
+}
+.activities{
+    margin-top: 57px;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+    justify-content: space-between;
+}
+.card_1{
+    width: 255px;
+    height: 255px;
+    background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(/Images/Rectangle221.png);
+}
+.card_2{
+    width: 255px;
+    height: 255px;
+    background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(/Images/Rectangle222.png);
+}
+.card_3{
+    width: 255px;
+    height: 255px;
+    background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(/Images/Rectangle223.png);
+}
+.card_4{
+    width: 255px;
+    height: 255px;
+    background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%), url(/Images/Rectangle224.png);
+}
+.textCards{
+    position:absolute;
+    margin-top:143px;
+    margin-left: 26px;
+    width: 145px;
+    height: 40px;
+    font-size: 15px;
+    color:white;
+}
+.bookNow2{
+    position:absolute;
+    margin-top: 208px;
+    margin-left: 26px;
+    background-color: #EC1F46;
+    color:white;
+    font-size: 12px;
+    width: 79px;
+    height: 23px;
+    padding-top: 7px;
+    padding-left: 21px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card4text {
+    width: 200px;
+}
