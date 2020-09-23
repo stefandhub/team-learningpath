@@ -1,4 +1,3 @@
-
 body,html{
     background-color: #F5FAFE;
     font-family: Muli;
@@ -868,10 +867,10 @@ body,html{
 .f_2{
     position: relative;
     top: 209px;
-    margin: 0px 166px 0px 161px;
     color: #BDBDBD;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 181px;
 }
 .contactDetails{
     display:flex;
@@ -886,6 +885,7 @@ body,html{
     margin-left: 17px;
     position: relative;
     top: -5px;
+    width: 450px;
 }
 
 .phone_details {
@@ -931,8 +931,36 @@ body,html{
     width: 521px;
     height: 123px;
     padding-left: 23px;
-    justify-items: self-start;
     margin-top: 15px;
     border-radius: 4px;
     border: rgba(255, 255, 255, 0);
 }
+input[id="message"]{  
+    text-align: left;
+}
+.send_button{
+    margin-top: 30px;
+    width: 539px;
+    display:flex;
+    justify-content: space-between;
+}
+#footer_send{
+    background-color:#EC1F46;
+    color: white;
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+}
+
+::placeholder {
+    color: #BDBDBD;
+}
+
+#message::placeholder {
+    position: relative;
+    top: -30px;
+}
+
+
+
