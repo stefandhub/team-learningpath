@@ -961,6 +961,28 @@ input[id="message"]{
     position: relative;
     top: -30px;
 }
+#required_Field{
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer_bottom{
+    display:flex;
+    color:#BDBDBD;
+    position:relative;
+    margin-top:304px;
+    justify-content: center;
+}
+.bottom_1{
+    display:flex;
+    font-size: 12px;
+    width: 283px;
+    justify-content: space-between;
+}
+.bottom_2{
+    position: absolute;
+    margin-left: 1050px;
+}
 
 
 
