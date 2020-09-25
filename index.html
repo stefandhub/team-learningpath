@@ -14,7 +14,9 @@
     <meta property="og:locale" content="English">
     <meta property="og:url" content="https://condescending-euler-4725e2.netlify.app/">
     <title>Sprint Backlog</title>
-    <link rel="stylesheet" href="main.css" media="all">
+    <link rel="stylesheet" href="main.css">
+    <link rel="portrait.css" rel="stylesheet" media="orientation:portrait">
+    <link href="print.css"   rel="stylesheet" media="print">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Muli" />
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
@@ -39,6 +41,7 @@
                 <input type="text" id="search" placeholder= "Search Location">
             </span>
             <span>
+                <label for="button"></label>
                 <button name="search button 1" type="Button" id= "button">
                     <img src="Images/lente.svg" alt="lens icon">
                 </button>
@@ -230,7 +233,7 @@
                     </div>
                     <div class="blueOldPrice">$ 10,500</div>
                     <div class="blueNewPrice">$ 8,500</div>
-                    <div><button name="book now 1" class="bookNow">Book Now</button> </div>
+                    <div><label for="book now 1"></label><button  id="book now 1" name="book now 1" class="bookNow">Book Now</button> </div>
                 </div>
             </div>
             <div class="belleMare box2">
@@ -254,7 +257,7 @@
                     </div>
                     <div class="cardOldPrice">$ 8,500</div>
                     <div class="cardNewPrice">$ 3,000</div>
-                    <div><button name="book now 2" class="bookNow">Book Now</button> </div>
+                    <div><label for="book now 2"></label><button id="book now 2" name="book now 2" class="bookNow">Book Now</button> </div>
                 </div>
             </div>
         </div>
@@ -280,7 +283,7 @@
                     </div>
                     <div class="cardOldPrice">$ 10,500</div>
                     <div class="cardNewPrice">$ 9,500</div>
-                    <div><button name="book now 3" class="bookNow">Book Now</button> </div>
+                    <div><label for="book now 3"></label><button id="book now 3" name="book now 3" class="bookNow">Book Now</button> </div>
                 </div></div>
             <div class="luxuryPalace box2">
                 <div class="flashLabel2"><span>Flash Offer</span></div>
@@ -303,7 +306,7 @@
                     </div>
                     <div class="cardOldPrice">$ 4,500</div>
                     <div class="cardNewPrice">$ 2,500</div>
-                    <div><button name="book now 4" class="bookNow">Book Now</button> </div>
+                    <div><label for="book now 4"></label><button id="book now 4" name="book now 4" class="bookNow">Book Now</button> </div>
                 </div></div>
             <div class="fiveStar box2">
                 <div class="flashLabel2"><span>Flash Offer</span></div>
@@ -326,7 +329,7 @@
                     </div>
                     <div class="cardOldPrice">$ 6,500</div>
                     <div class="cardNewPrice">$ 3,500</div>
-                    <div><button name="book now 5" class="bookNow">Book Now</button> </div>
+                    <div><label for="book now 5"></label><button id="book now 5" name="book now 5" class="bookNow">Book Now</button> </div>
                 </div>
             </div>
         </div>
@@ -359,7 +362,8 @@
             <div class="input">
                 <label for="yourEmail"></label>
                 <input id="yourEmail" type="email" placeholder="Your email address">
-                <button name="send_button" class="buttonSend">Send</button>
+                <label for="send_button"></label>
+                <button id="send_button" name="send_button" class="buttonSend">Send</button>
             </div>
         </div>
     </div>
@@ -466,6 +470,7 @@
                         <input type="text" id="message" placeholder="Message">
                     </div>
                     <div class="send_button">
+                        <label for="footer_send"></label>
                         <button name="footer_send_button" id="footer_send">Send</button>
                         <span>* Required Fields</span>
                     </div>
