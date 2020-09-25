@@ -87,6 +87,9 @@ body,html{
     margin-left: 13%;
 }
 .circle{
+    position: absolute;
+    top: -10px;
+    left: 15px;
     display: flex;
     background-color: #EC1F46;
     background-size: cover;
@@ -250,6 +253,8 @@ body,html{
     margin-top: 33px;
     margin-left: 70px;
     margin-right: 29px;
+    display: flex;
+    flex-direction: column;
 }
 .options{
     display: flex;
@@ -320,7 +325,7 @@ body,html{
 .Phighlights{
     margin-top: 35px;
     background-color: white;
-    width: 538px;
+    width: 558px;
     height: 200px;
     
 }
@@ -391,7 +396,7 @@ body,html{
     flex-direction: column;
     margin-right:8%;
     margin-top: 33px;
-    width:1110px;
+    width:1150px;
     height: 550px;
     background-color:white;
 }
